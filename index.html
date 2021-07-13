@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <select name="form" id="myselect">
+        <option value=none></option>
+        <option value=square>квадрат</option>
+        <option value=circle>круг</option>
+        <option value=Rectangle>прямоугольник</option>
+    </select>
+    <div id=form></div>
+    <div id=Square></div>
+    <div id=Circle></div>
+    <div id=Rectangle></div>
+            <p><input id="selectColor" class="favorite styled" type=color name="color"></p>
+            <div id=color></div>
+            <p><input id="okButton" type="button" value="Нажми меня!"></p>
+
+<style>
+    #color{
+        display: none;
+    }
+#Square{
+    width: 100px;
+	height: 100px;
+    border: 1px solid black;
+    display: none;
+    	
+}
+#Circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+    border: 1px solid black;
+    display: none;
+}
+#Rectangle {
+    width: 200px;
+	height: 100px;
+    border: 1px solid black;
+    display: none;
+}
+</style>   
+</body>
+</html>
