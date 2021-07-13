@@ -2,7 +2,7 @@ document.body.style.background = "Moccasin";
 document.getElementById("myselect").addEventListener("change", function selectform(Rectangle, Square, Circle){
   document.getElementById("form").innerHTML = this.value; 
     console.log(this.value)
-    switch (form) {
+    switch (this.value) {
       case 'Rectangle':
         document.getElementById("Rectangle").style.display="block"
         break;
