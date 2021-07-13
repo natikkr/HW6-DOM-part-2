@@ -4,14 +4,21 @@ document.getElementById("myselect").addEventListener("change", function selectfo
     console.log(this.value)
     switch (this.value) {
       case 'Rectangle':
-        document.getElementById("Rectangle").style.display="block"
+        document.getElementById("Rectangle").style.display="block";
+        document.getElementById("Circle").style.display="none";
+        document.getElementById("Square").style.display="none";
         break;
+    
     
       case 'square':
         document.getElementById("Square").style.display="block"
+        document.getElementById("Rectangle").style.display="none";
+        document.getElementById("Circle").style.display="none";
         break;
       case 'circle':
         document.getElementById("Circle").style.display="block"
+        document.getElementById("Square").style.display="none"
+        document.getElementById("Rectangle").style.display="none";
         break;
     
       default:
